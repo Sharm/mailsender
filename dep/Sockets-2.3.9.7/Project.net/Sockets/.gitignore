@@ -1,0 +1,11 @@
+
+Debug/*
+Release/*
+
+*.suo
+*.ncb
+*.user
+*.filters
+*.old
+
+
