@@ -9,7 +9,7 @@ ILFLAGS+= -I/usr/include -I/usr/Include/c++/4.3 -I../../include/sockets \
           -L/usr/local/lib -L../../lib
 
 TARGET = mailsender
-BIN_PATH = /opt/mailsender
+BIN_PATH = ../../bin
 
 
 SOURCE_FILES= 	\
