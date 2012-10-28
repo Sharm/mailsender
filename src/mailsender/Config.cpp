@@ -26,6 +26,7 @@ void Config::Reload()
 	IntValue[INT_LOG_DEBUG] = GetIntValue("LogDebug",0);
 	IntValue[INT_SMTP_PORT] = GetIntValue("SMTP Port",0);
 	IntValue[INT_IS_CONSTLOG] = GetIntValue("Const LogFile",0);
+    IntValue[INT_SEND_DELAY] = GetIntValue("SendDelay", 1000);
 	
 	
 	

@@ -8,3 +8,5 @@ SMTP Port = 25
 Mail Real From = support@domain.ru
 Mail From = "Super Site" <noreply@site.ru>
 Mail Reply-to = support@domain.ru
+
+SendDelay = 1000

@@ -132,7 +132,7 @@ void ClientHandler::BeginSend()
 		sLog.outDebug(" -> Done");
 
 		delete ClientS;
-		Utility::Sleep(1000);
+		Utility::Sleep(sConf.IntValue[INT_SEND_DELAY]);
 	}
 	
 	m_error = "";
